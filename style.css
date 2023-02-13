@@ -68,3 +68,7 @@ span {
   right: 20px;
   bottom: 30px;
 }
+.footer {
+  position: absolute;
+  left: 420px;
+}
