@@ -62,7 +62,7 @@ span {
 .emoji {
   position: absolute;
   bottom: 1px;
-  right: 60px;
+  right: 45px;
 }
 .weatherConverter {
   position: absolute;
@@ -72,4 +72,17 @@ span {
 .footer {
   position: absolute;
   left: 420px;
+}
+
+.converter {
+  color: #a2c11c;
+}
+
+.weatherConverter .active {
+  color: rgb(33, 33, 33);
+  cursor: default;
+}
+
+.weatherConverter .active:hover {
+  text-decoration: none;
 }
