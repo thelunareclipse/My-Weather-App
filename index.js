@@ -62,7 +62,7 @@ function displayCityTemp(response) {
   );
   document.querySelector(
     "#humidity"
-  ).innerHTML = `Humidity: ${response.data.main.humidity}`;
+  ).innerHTML = `Humidity: ${response.data.main.humidity}%`;
   document.querySelector("#description").innerHTML =
     response.data.weather[0].description;
   let iconElement = document.querySelector("#icon");
