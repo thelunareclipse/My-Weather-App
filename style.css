@@ -61,6 +61,7 @@ span {
 }
 .emoji {
   position: absolute;
+  bottom: 1px;
   right: 60px;
 }
 .weatherConverter {
