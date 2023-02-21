@@ -25,6 +25,7 @@ span {
   padding: 10px 20px;
   border-radius: 15px;
   max-width: 600px;
+  height: 400px;
 }
 .weather-app {
   display: block;
@@ -51,13 +52,16 @@ span {
   background-color: #5d5d5d;
 }
 .description {
+  position: relative;
   margin: 0;
+  left: 450px;
+  bottom: 45px;
   font-size: 15px;
 }
 .todayWeather {
   position: absolute;
-  right: 80px;
-  bottom: 0;
+  right: 200px;
+  top: 150px;
 }
 .emoji {
   position: absolute;
@@ -66,12 +70,13 @@ span {
 }
 .weatherConverter {
   position: absolute;
-  right: 20px;
-  bottom: 30px;
+  right: 135px;
+  top: 150px;
 }
 .footer {
   position: absolute;
   left: 420px;
+  top: 410px;
 }
 
 .converter {
