@@ -88,7 +88,7 @@ form.addEventListener("submit", cityInput);
 let currentLocationButton = document.querySelector("#current-temperature");
 currentLocationButton.addEventListener("click", displayCurrentWeather);
 
-searchCity("Tokyo");
+searchCity("Atlanta");
 
 function handleFahrenheit(event) {
   event.preventDefault();

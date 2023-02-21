@@ -60,18 +60,16 @@ span {
 }
 .todayWeather {
   position: absolute;
-  left: 150px;
-  top: 150px;
+  left: 125px;
 }
 .emoji {
   position: absolute;
-  bottom: 1px;
   right: 45px;
+  bottom: 0;
 }
 .weatherConverter {
   position: absolute;
   left: 200px;
-  top: 150px;
 }
 .footer {
   position: absolute;
