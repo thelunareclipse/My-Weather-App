@@ -54,22 +54,24 @@ span {
 .description {
   position: relative;
   margin: 0;
-  left: 450px;
-  top: 45px;
   font-size: 15px;
+  top: 25px;
+  left: 250px;
 }
 .todayWeather {
-  position: absolute;
-  left: 125px;
+  position: relative;
+  bottom: 50px;
+  left: 120px;
 }
 .emoji {
-  position: absolute;
-  right: 45px;
-  bottom: 0;
+  position: relative;
+  right: 100px;
+  top: 70px;
 }
 .weatherConverter {
-  position: absolute;
-  left: 200px;
+  position: relative;
+  left: 50px;
+  top: 50px;
 }
 .footer {
   position: absolute;
