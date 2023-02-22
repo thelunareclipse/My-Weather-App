@@ -25,7 +25,7 @@ span {
   padding: 10px 20px;
   border-radius: 15px;
   max-width: 600px;
-  height: 450px;
+  height: 550px;
 }
 .weather-app {
   display: block;
@@ -76,7 +76,7 @@ span {
 .footer {
   position: absolute;
   left: 420px;
-  top: 460px;
+  top: 560px;
 }
 
 .converter {
@@ -90,4 +90,8 @@ span {
 
 .weatherConverter .active:hover {
   text-decoration: none;
+}
+
+.weatherForecast {
+  text-align: center;
 }
