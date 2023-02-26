@@ -39,6 +39,28 @@ document.getElementById(
   "date"
 ).innerHTML = `${day}, ${month} ${date}, ${year} ${hour}:${minute}`;
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+  let forecastHTML = `<div class="row">`;
+  let days = ["Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `
+        <div class="col-2">
+          <span>${day}</span>
+          <img
+            src="http://openweathermap.org/img/wn/50d@2x.png"
+            alt=""
+            width="38"
+          />
+          <p>18° 12°</p>
+        </div>`;
+  });
+  forecastHTML = forecastHTML + `</div>`;
+  forecastElement.innerHTML = forecastHTML;
+}
+
 function displayCityTemp(response) {
   document.querySelector("#city-heading").innerHTML = response.data.name;
   document.querySelector("#temp-converter").innerHTML = Math.round(
@@ -114,3 +136,5 @@ fahrenheit.addEventListener("click", handleFahrenheit);
 
 let celcius = document.querySelector("#celcius-link");
 celcius.addEventListener("click", handleCelcius);
+
+displayForecast();
